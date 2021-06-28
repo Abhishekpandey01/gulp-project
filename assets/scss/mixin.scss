@@ -1,0 +1,41 @@
+@mixin after{
+
+            content: "";
+            position: absolute;
+            top: calc(92px + -44px);
+            left: -12px;
+            width: 2px;
+            height: calc(85% - 16px);
+}
+@mixin icon{
+    width: 34px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    left: -28px;
+    border: 1px solid;
+}
+@mixin link{
+    color:$primary_1;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 5px;
+}
+@mixin fa-fa-icon{
+    font-size: 3rem;
+    color: $primary_1;
+
+}
+@mixin padding {
+   padding: 50px 0px 80px 0px;
+}
+@mixin button{
+
+} 
+@mixin social-icon {
+        font-size: 30px;
+        color: #fff;
+        background: #337B71;
+        padding: 8px;   
+}
+    

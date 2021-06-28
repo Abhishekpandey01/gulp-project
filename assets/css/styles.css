@@ -1,0 +1,185 @@
+body {
+  font-family: 'Playfair Display', serif !important; }
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1400px; }
+
+section.top-header {
+  background-color: #ffcd8c; }
+  section.top-header .top-heading {
+    font-size: 17px;
+    display: contents; }
+  section.top-header .learn {
+    color: #0f6458;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 5px; }
+
+nav.menu ul.menu-item {
+  display: flex;
+  list-style-type: none;
+  /* justify-content: space-around; */
+  margin-top: 40px; }
+
+nav.menu .li-item {
+  margin-left: 35px;
+  font-weight: bold;
+  color: #010101; }
+
+nav.menu #menu-button {
+  margin: 33px;
+  display: flex; }
+
+nav.menu button.button-register {
+  background: #ffcd8c;
+  border: none;
+  padding: 8px 22px; }
+
+nav.menu button.button {
+  padding: 8px 22px;
+  background: #0f6458;
+  color: #fff;
+  border: none;
+  margin-left: 20px; }
+
+section.feature {
+  padding-top: 55px;
+  background-color: aliceblue; }
+  section.feature .feature-heading {
+    color: #0f6458; }
+  section.feature .sign-up-button.rounded-pill {
+    padding: 11px 24px;
+    background: #0f6458;
+    border: none;
+    color: #fff; }
+  section.feature .Download-button.rounded-pill {
+    padding: 7px 21px;
+    background: transparent;
+    border-color: #0f6458;
+    color: #0f6458; }
+
+.content-wrapper .text {
+  font-size: 1.15rem; }
+
+.content-wrapper .inner-content {
+  padding-top: 80px; }
+
+.content-wrapper .icon {
+  width: 34px;
+  height: 35px;
+  border-radius: 100%;
+  position: absolute;
+  left: -28px;
+  border: 1px solid;
+  background: #0f6458;
+  color: #fff; }
+
+.content-wrapper .content-box-one::after {
+  content: "";
+  position: absolute;
+  top: calc(92px + -44px);
+  left: -12px;
+  width: 2px;
+  height: calc(85% - 16px);
+  background-color: #0f6458; }
+
+.content-wrapper .content-box::after {
+  content: "";
+  position: absolute;
+  top: calc(92px + -44px);
+  left: -12px;
+  width: 2px;
+  height: calc(85% - 16px);
+  background-color: #74d8ca; }
+
+.content-wrapper .icon2 {
+  width: 34px;
+  height: 35px;
+  border-radius: 100%;
+  position: absolute;
+  left: -28px;
+  border: 1px solid;
+  color: #000; }
+
+section.content-inner-part {
+  padding-top: 100px; }
+  section.content-inner-part .inner-heading {
+    font-size: 22px;
+    display: flex; }
+  section.content-inner-part .heading-icon {
+    width: 40px;
+    height: 40px;
+    background: #b2cdc9;
+    border-radius: 100%;
+    margin-right: 21px; }
+  section.content-inner-part .learn {
+    color: #0f6458;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 5px; }
+
+section.download-app-wrapper {
+  background-color: #ffcd8c; }
+  section.download-app-wrapper .app-image {
+    height: 600px; }
+
+i.fa.fa-handshake-o {
+  font-size: 3rem;
+  color: #0f6458; }
+
+i.fa.fa-home {
+  font-size: 3rem;
+  color: #0f6458; }
+
+section.Pricing-section {
+  padding: 50px 0px 80px 0px; }
+  section.Pricing-section .price-table {
+    background: #eef4f3; }
+    section.Pricing-section .price-table li.col-lg-6 {
+      padding: .375rem;
+      list-style: none;
+      font-size: 18px;
+      color: #5d5757; }
+      section.Pricing-section .price-table li.col-lg-6 i.fa.fa-check-circle.mr-2 {
+        color: #0f6458; }
+  section.Pricing-section .doller-part {
+    color: #0f6458; }
+    section.Pricing-section .doller-part sub {
+      bottom: -0.45em;
+      font-size: 90px; }
+
+section#footer {
+  background: #0f6458;
+  padding: 80px 0px; }
+  section#footer button.button-large.rounded-pill {
+    background: #E7C287;
+    width: 18%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    color: #283232;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    margin: 10px; }
+  section#footer button.button-large.rounded-pill.Registe {
+    background: #fff;
+    color: #0f6458; }
+  section#footer li.footer-widget {
+    font-size: 17px;
+    color: #fff;
+    padding: 6px;
+    list-style-type: none; }
+  section#footer .small, section#footer small {
+    font-size: 117%;
+    font-weight: 400;
+    color: #c4c4c0; }
+  section#footer i.fa.fa-facebook-square {
+    font-size: 30px;
+    color: #fff;
+    background: #337B71;
+    padding: 8px; }
+  section#footer i.fa.fa-paypal {
+    font-size: 30px;
+    color: #fff;
+    background: #337B71;
+    padding: 8px; }

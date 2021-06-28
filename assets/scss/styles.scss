@@ -1,0 +1,198 @@
+@import 'variables';
+@import 'mixin';
+body {
+    font-family: 'Playfair Display', serif !important;
+}                 
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1400px;
+}
+
+
+section.top-header{
+    background-color:$primary_2;
+
+    .top-heading{
+        font-size: $myFontSize;
+        display: contents;
+    }
+    .learn {
+        @include link;
+    }
+}         
+
+nav.menu{
+   ul.menu-item {
+    display: flex;
+    list-style-type: none;
+    /* justify-content: space-around; */
+    margin-top: 40px;
+}
+  .li-item {
+    margin-left: 35px;
+    font-weight: $fontweight;
+    color: #010101;
+}
+  #menu-button{
+      margin: 33px;
+      display: flex;
+  }
+  button.button-register {
+    background: $primary_2;
+    border: none;
+    padding: 8px 22px;
+}
+button.button {
+    padding: 8px 22px;
+    background: $primary_1;
+    color: #fff;
+    border: none;
+    margin-left: 20px;
+}
+}
+
+section.feature{
+    padding-top: 55px;
+    background-color:$background_1;
+
+    .feature-heading{
+        color: $primary_1;
+    }
+    .sign-up-button.rounded-pill {
+        padding: 11px 24px;
+        background: $primary_1;
+        border: none;
+        color: #fff;
+    }
+    .Download-button.rounded-pill {
+        padding: 7px 21px;
+        background: transparent;
+        border-color:$primary_1;
+        color:$primary_1;
+    }
+}
+.content-wrapper{
+       .text {
+        font-size: 1.15rem;
+        }
+        .inner-content {
+            padding-top: 80px;
+        }
+        .icon {
+            @include icon;
+            background:$primary_1;
+
+
+            color: #fff;
+
+        }
+        .content-box-one::after {
+           @include after;
+            background-color:$primary_1;
+        }
+        .content-box::after {
+           @include after;
+            background-color:#74d8ca;
+        }
+        .icon2 {
+           @include icon;
+            color: #000;
+           
+        }
+    }
+    
+section.content-inner-part{
+    padding-top: 100px;
+    .inner-heading {
+        font-size: 22px;
+        display: flex;
+    }
+    .heading-icon {
+    width: 40px;
+    height: 40px;
+    background: #b2cdc9;
+    border-radius: 100%;
+    margin-right: 21px;
+}
+    .learn {
+    @include link;
+}
+}   
+
+section.download-app-wrapper{
+    background-color: $primary_2;
+    .app-image {
+        height: 600px;
+    }
+    
+}
+
+
+i.fa.fa-handshake-o {
+    @include fa-fa-icon;
+}
+i.fa.fa-home{
+    @include fa-fa-icon;
+}
+
+section.Pricing-section{
+    @include padding;
+    .price-table{
+    background: #eef4f3;
+    li.col-lg-6 {
+        padding: .375rem;
+        list-style: none;
+        font-size: 18px;
+        color: #5d5757;
+
+        i.fa.fa-check-circle.mr-2 {
+            color: $primary_1;
+     }
+    }
+}
+.doller-part {
+    color: $primary_1;
+    sub {
+        bottom: -0.45em;
+        font-size: 90px;
+    }
+}
+}
+
+section#footer {
+    background: $primary_1;
+    padding: 80px 0px;
+    button.button-large.rounded-pill {
+        background: #E7C287;
+        width: 18%;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        color: #283232;
+        font-size: $myFontSize;
+        font-weight: $fontweight;
+        border: none;
+        margin: 10px;
+    }
+    button.button-large.rounded-pill.Registe {
+        background: #fff;
+        color: $primary_1;
+    }
+    
+    li.footer-widget {
+        font-size:$myFontSize; 
+       color: #fff;
+        padding: 6px;
+        list-style-type: none;
+    }
+    .small, small {
+        font-size: 117%;
+        font-weight: 400; 
+        color: #c4c4c0;
+    }
+    i.fa.fa-facebook-square {
+        @include social-icon;
+    }
+    i.fa.fa-paypal{
+        @include social-icon;
+    }
+}
