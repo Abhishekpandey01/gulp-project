@@ -1,5 +1,9 @@
 @import 'variables';
 @import 'mixin';
+@import 'responsive';
+
+
+
 body {
     font-family: 'Playfair Display', serif !important;
 }                 
@@ -196,3 +200,76 @@ section#footer {
         @include social-icon;
     }
 }
+
+@media (max-width: 575px)
+{
+    .container.header-wrapper {
+        display: none;
+    }
+    .feature-heading{
+        font-size: $FontSize;
+    }
+    .timeline-heading{
+        font-size: $FontSize;
+    }
+    .content-box-one {
+        padding: 30px;
+    }
+    .content-wrapper .content-box-one::after {
+       @include mobile-after;
+    }
+    .content-wrapper .icon {
+        @include mobile-icon;
+    }
+    .content-box {
+        padding: 30px;
+    }
+    .icon2.text-center{
+        @include mobile-icon-two;
+    }
+    .content-wrapper .content-box::after {
+        @include mobile-after;
+    }
+    .inner-part-heading{
+        font-size: $FontSize;
+    }
+    section.content-inner-part .heading-icon {
+       @include headingicon;
+    }
+    section.content-inner-part .inner-heading {
+        font-size: 15px;
+       
+    }
+    h3.display-3.care.mb-4 {
+        font-size: $FontSize;
+    }
+    h2.display-3 {
+        font-size: $FontSize;
+    }
+    h3.display-3.mb-5 {
+        font-size: $FontSize;
+    }
+    .footer-heading {
+        font-size: $FontSize;
+    }
+    section#footer button.button-large.rounded-pill {
+        background: #E7C287;
+        width: 50%;
+   
+}
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .container.header-wrapper {
+        display: none;
+    }
+} 
+ @media (min-width:1024px) and (max-width:1200px){
+
+        section.download-app-wrapper .app-image {
+            height: 450px;
+        }
+        .row.header-row {
+            flex-wrap: nowrap;
+        }
+}
+

@@ -1,3 +1,30 @@
+@media (max-width: 575px) {
+  .container.header-wrapper {
+    display: none; }
+  .feature-heading {
+    font-size: 35px; }
+  .timeline-heading {
+    font-size: 35px; }
+  .content-box-one {
+    padding: 30px; }
+  .content-wrapper .content-box-one::after {
+    content: "";
+    position: absolute;
+    top: calc(92px + -44px);
+    left: 20px;
+    width: 2px;
+    height: calc(85% - 16px);
+    background-color: #0f6458; }
+  .content-wrapper .icon {
+    width: 34px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    left: 4px;
+    border: 1px solid;
+    background: #0f6458;
+    color: #fff; } }
+
 body {
   font-family: 'Playfair Display', serif !important; }
 
@@ -183,3 +210,76 @@ section#footer {
     color: #fff;
     background: #337B71;
     padding: 8px; }
+
+@media (max-width: 575px) {
+  .container.header-wrapper {
+    display: none; }
+  .feature-heading {
+    font-size: 35px; }
+  .timeline-heading {
+    font-size: 35px; }
+  .content-box-one {
+    padding: 30px; }
+  .content-wrapper .content-box-one::after {
+    content: "";
+    position: absolute;
+    top: calc(92px + -44px);
+    left: 20px;
+    width: 2px;
+    height: calc(85% - 16px); }
+  .content-wrapper .icon {
+    width: 34px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    left: 4px;
+    border: 1px solid; }
+  .content-box {
+    padding: 30px; }
+  .icon2.text-center {
+    width: 34px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    left: 4px;
+    border: 1px solid;
+    color: #000; }
+  .content-wrapper .content-box::after {
+    content: "";
+    position: absolute;
+    top: calc(92px + -44px);
+    left: 20px;
+    width: 2px;
+    height: calc(85% - 16px); }
+  .inner-part-heading {
+    font-size: 35px; }
+  section.content-inner-part .heading-icon {
+    width: 32px;
+    height: 29px;
+    background: #b2cdc9;
+    border-radius: 100%;
+    margin-right: 21px;
+    line-height: 26px; }
+  section.content-inner-part .inner-heading {
+    font-size: 15px; }
+  h3.display-3.care.mb-4 {
+    font-size: 35px; }
+  h2.display-3 {
+    font-size: 35px; }
+  h3.display-3.mb-5 {
+    font-size: 35px; }
+  .footer-heading {
+    font-size: 35px; }
+  section#footer button.button-large.rounded-pill {
+    background: #E7C287;
+    width: 50%; } }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container.header-wrapper {
+    display: none; } }
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  section.download-app-wrapper .app-image {
+    height: 450px; }
+  .row.header-row {
+    flex-wrap: nowrap; } }

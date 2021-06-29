@@ -38,4 +38,40 @@
         background: #337B71;
         padding: 8px;   
 }
-    
+
+@mixin mobile-icon{
+    width: 34px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    left: 4px;
+    border: 1px solid;
+}
+@mixin mobile-icon-two {
+    width: 34px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    left: 4px;
+    border: 1px solid;
+    color: #000;
+}
+@mixin mobile-after{
+
+    content: "";
+    position: absolute;
+    top: calc(92px + -44px);
+    left: 20px;
+    width: 2px;
+    height: calc(85% - 16px);
+}
+
+ @mixin headingicon { 
+
+    width: 32px;
+    height: 29px;
+    background: #b2cdc9;
+    border-radius: 100%;
+    margin-right: 21px;
+    line-height: 26px;
+}
